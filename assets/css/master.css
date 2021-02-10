@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'MetropolisRegular';
+  font-weight: bold;
+}
+
+
+.bg_darkblue {
+  background-color: #2C3E50;
+}
+
+.bg_cyan {
+  background-color: #1ABC9C;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
