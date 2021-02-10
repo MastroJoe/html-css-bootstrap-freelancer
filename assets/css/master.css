@@ -6,6 +6,22 @@
   font-weight: bold;
 }
 
+ /* NAVBAR */
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand  {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 30px;
+}
 
 .bg_darkblue {
   background-color: #2C3E50;
@@ -15,10 +31,63 @@
   background-color: #1ABC9C;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-nav>li>a {
   color: #ffffff;
 }
 
-.navbar-default .navbar-nav>li>a {
+/* MAIN */
+/* JUMBO */
+
+.col-xs-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.jumbo {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.jumbo > .content-jumbo > img {
+  width: 240px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.jumbo > .text-jumbo > h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 65px;
+}
+
+.fa-star:before {
+  padding: 0 15px;
+  font-size: 30px;
   color: #ffffff;
+}
+
+.line-star {
+  padding: 15px 0;
+}
+
+.left-star, .right-star {
+  width: 15%;
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.jumbo > .text-jumbo > ul {
+  display: inline-block;
+}
+
+.jumbo > .text-jumbo > ul > li {
+  display: inline;
+  color: #ffffff;
+  font-size: 23px;
+  /* font-weight: 500; */
 }
