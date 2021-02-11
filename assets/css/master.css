@@ -77,21 +77,24 @@ h1 {
 
 .divider i {
   font-size: 32px;
+  padding-top: 10px;
 }
 
 .divider::after {
   float: right;
+  margin-right: 415px;
 }
 
 .divider::before {
   float: left;
+  margin-left: 415px;
 }
 
 .divider::before, .divider::after {
   content: '';
   display: block;
-  width: 25%;
-  height: 6px;
+  width: 10%;
+  height: 5px;
   background-color: #ffffff;
   margin-top: 25px;
 }
@@ -128,6 +131,9 @@ h1 {
     font-size: 25px;
   }
 }
+
+/* THUMB */
+
 
 /* MEDIA LG */
 
