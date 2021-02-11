@@ -1,4 +1,7 @@
  /* NAVBAR */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .my_navbar {
   border: 0;
@@ -6,22 +9,23 @@
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #2C3E50;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 
-.navbar-default .navbar-brand  {
+.navbar-default .navbar-brand {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 29px;
+  text-transform: uppercase;
 }
 
+#bs-example-navbar-collapse-1 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
 
 .navbar-default .navbar-nav>li>a {
   color: #ffffff;
-}
-
-.navbar-toggle {
-  margin-top: 30px;
 }
 
 .bg_cyan {
@@ -37,125 +41,98 @@
   border-color: #2C3E50;
 }
 
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
   color: #1ABC9C;
 }
 
 /* MAIN */
 /* JUMBO */
 
-.col-xs-12 {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-
-.jumbo {
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-.jumbo > .content-jumbo > img {
-  width: 240px;
-  padding-bottom: 80px;
+#jumbtron {
+  background-color: #1ABC9C;
   padding-top: 150px;
+  padding-bottom: 80px;
+  color: #ffffff;
 }
 
-.jumbo > .text-jumbo > h1 {
-  color: white;
+#jumbtron img {
+  width: 280px;
+  margin-bottom: 50px;
+}
+
+#jumbtron p {
+  font-size: 24px;
+  padding-top: 40px;
+}
+
+h1 {
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 65px;
+  font-weight: 700;
 }
 
-.fa-star:before {
-  padding: 0 15px;
-  font-size: 30px;
-  color: #ffffff;
+.divider {
+  padding-top: 20px;
 }
 
-.line-star {
-  padding: 15px 0;
+.divider i {
+  font-size: 32px;
 }
 
-.left-star, .right-star {
-  width: 15%;
-  display: inline-block;
-  border: 3px solid white;
-  border-radius: 15px;
-  margin-top: 0;
-  margin-bottom: 10px;
+.divider::after {
+  float: right;
 }
 
-.jumbo > .text-jumbo > ul {
-  display: inline-block;
+.divider::before {
+  float: left;
 }
 
-.jumbo > .text-jumbo > ul > li {
-  display: inline;
-  color: #ffffff;
-  font-size: 23px;
-  /* font-weight: 500; */
+.divider::before, .divider::after {
+  content: '';
+  display: block;
+  width: 25%;
+  height: 6px;
+  background-color: #ffffff;
+  margin-top: 25px;
 }
-
-
-
 
 /* MEDIA SM */
 
 @media all and (min-width: 768px) {
-
-.container {
-  width: 90%;
-}
-
-.container-fluid {
-  padding: 0 10%;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-  line-height: 65px;
-  /* text-transform: uppercase; */
-}
-
-.jumbo {
-  padding-bottom: 35px;
-}
-
-.jumbo > .content-jumbo > img {
-  width: 30%;
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.line-star {
-  padding: 25px 0;
-}
 
 }
 
 /* MEDIA MD */
 
 @media all and (min-width: 992px) {
-
-  .container {
-    width: 80%;
+  .my_navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
   }
 
-  .jumbo > .content-jumbo > img {
-    width: 20%;
-    margin-top: 30px;
-    margin-bottom: 20px;
+  .navbar.default .navbar-brand {
+    font-size: 28px;
   }
 
+  .navbar.default .navbar-nav > li > a {
+    font-size: 15px;
+    padding: 16px;
+  }
 
+  #jumbtron h1 {
+    font-size: 65px;
+    line-height: 58px;
+  }
+
+  #jumbtron p {
+    font-size: 25px;
+  }
 }
 
 /* MEDIA LG */
 
 @media all and (min-width: 1200px) {
-
+  .container-xl, .container-lg, .container-md, .container-sm {
+    max-width: 1140px;
+  }
 }
