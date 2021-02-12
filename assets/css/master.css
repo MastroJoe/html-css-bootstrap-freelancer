@@ -99,6 +99,106 @@ h1 {
   margin-top: 25px;
 }
 
+/* PORTFOLIO */
+
+.portfolio {
+  padding-bottom: 20px;
+}
+
+.text-star {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.text-star > h2 {
+  text-transform: uppercase;
+}
+
+.content-portfolio  {
+  padding: 15px;
+}
+
+.content-portfolio img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ABOUT */
+
+.text-about {
+  padding: 0 20px;
+}
+
+.text-about > p {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px 1.5rem;
+}
+
+.btn-download {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.btn-default {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-download > button:before {
+content: '\f019';
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+color: #fff;
+padding-right: 5px;
+}
+
+/* CONTACT ME */
+
+.contact-me {
+  padding-bottom: 10px;
+}
+
+.form-control {
+  box-shadow: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  padding: 6px 0;
+  width: 100%;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #555;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(32, 177, 138);
+  border-color: rgb(32, 177, 138);
+  margin-top: 15px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(34, 47, 62);
+  border-color: rgb(34, 47, 62);
+}
+
+.form-group {
+  padding: 0 20px;
+}
+
+.form-group > textarea {
+  width: 100%;
+}
+
 /* MEDIA SM */
 
 @media all and (min-width: 768px) {
