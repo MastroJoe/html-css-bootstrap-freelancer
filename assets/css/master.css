@@ -115,6 +115,40 @@ h1 {
   text-transform: uppercase;
 }
 
+.h2, h2 {
+  font-size: 45px;
+  padding: 0;
+}
+
+.divider_black {
+  padding-top: 0px;
+  text-align: center;
+}
+
+.divider_black i {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+.divider_black::after {
+  float: right;
+  margin-right: 415px;
+}
+
+.divider_black::before {
+  float: left;
+  margin-left: 415px;
+}
+
+.divider_black::before, .divider_black::after {
+  content: '';
+  display: block;
+  width: 10%;
+  height: 5px;
+  background-color: black;
+  margin-top: 25px;
+}
+
 .content-portfolio  {
   padding: 15px;
 }
@@ -132,7 +166,7 @@ h1 {
 
 .text-about > p {
   font-size: 20px;
-  color: #fff;
+  color: #ffffff;
   padding: 20px 1.5rem;
 }
 
@@ -145,15 +179,15 @@ h1 {
 
 .btn-default {
   background-color: transparent;
-  border-color: #fff;
-  color: #fff;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .btn-download > button:before {
 content: '\f019';
 font-family: "Font Awesome 5 Free";
 font-weight: 900;
-color: #fff;
+color: #ffffff;
 padding-right: 5px;
 }
 
@@ -179,14 +213,14 @@ padding-right: 5px;
 }
 
 .btn-primary {
-  color: #fff;
+  color: #ffffff;
   background-color: rgb(32, 177, 138);
   border-color: rgb(32, 177, 138);
   margin-top: 15px;
 }
 
 .btn-primary:hover {
-  color: #fff;
+  color: #ffffff;
   background-color: rgb(34, 47, 62);
   border-color: rgb(34, 47, 62);
 }
@@ -231,9 +265,6 @@ padding-right: 5px;
     font-size: 25px;
   }
 }
-
-/* THUMB */
-
 
 /* MEDIA LG */
 
