@@ -168,7 +168,7 @@ h1 {
   border-radius: 15px;
 }
 
-.content-portfolio .layover {
+.layover {
   position: absolute;
   top: 0;
   left: 0;
@@ -179,7 +179,7 @@ h1 {
   display: none;
 }
 
-.content-portfolio .layover i {
+.layover i {
   display: block;
   position: absolute;
   top: 50%;
